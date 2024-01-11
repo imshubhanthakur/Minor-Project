@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #f4f5fb;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+body{
+    background: #43a1ef;
+}
+
+.container {
+    width: 100%;
+}
+
+.newsandevents-section {
+   width: 85%;
+   margin: 20px auto;
+}
+
+.newsandevents-section .title{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.newsandevents-section .title h2{
+    font-size: 40px;
+    color: #f4f5fb;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+
+.cards .card{
+    width: 100%;
+    position: relative;
+}
+
+.image-section img{
+    width:100%;
+    height: auto;
+}
+
+.content2{
+    padding: 15px 20px;
+}
+
+.content2 h4{
+    font-size: 24px;
+    color: #222;
+    font-weight: 500;
+}
+
+.content2 p{
+    color: #f4f5fb;
+    font-size: 15px;
+}
+
+.content2 a{
+    text-decoration: none;
+    color: #f4f5fb;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: #1c0a51;
+    padding: 8px 15px;
+}
+
+.card .posted-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #ada62b;
+    padding: 6px 15px;
+}
